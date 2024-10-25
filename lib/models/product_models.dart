@@ -7,12 +7,13 @@ class ProductModels {
   final String TotalPrice;
   final String CreatedDate;
 
-  ProductModels(
-      {required this.id,
-      required this.ProductName,
-      required this.ProductCode,
-      required this.Img,
-      required this.Qty,
-      required this.TotalPrice,
-      required this.CreatedDate});
+  ProductModels({
+    required this.id,
+    required this.ProductName,
+    required this.ProductCode,
+    required this.Img,
+    required this.Qty,
+    required this.TotalPrice,
+    required this.CreatedDate,
+  });
 }
